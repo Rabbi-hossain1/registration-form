@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo_container">
+        <div class="logo">
+            <h1>RABBI <span>HOSSAIN</span></h1>
+        </div>
+    </div>
+    
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Course</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <!-- <a href="#">Login</a> -->
+        </nav> 
+        <div class="main_content">
+            
+            <form action="">
+            <div><p style="color: #EC8701; font-size: 20px">Student Registration form</p> </div> <hr><br>
+            <p>Please enter relevant information.................</p>
+
+            <table class="left_table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="form_one">Division</label>
+                                <select name="form_one" id="form_one">
+                                    <option value="" selected disabled>--Select One--</option>
+                                    <option value="">Dhaka</option>
+                                    <option value="">Rangpur</option>
+                                    <option value="">Rajshahi</option>
+                                    <option value="">Khulna</option>
+                                    <option value="">Sylhet</option>
+                                    <option value="">Chittagong</option>
+                                    <option value="">Barisal</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="form_two">Course*</label>
+                                <select name="form_two" id="form_two">
+                                    <option value=""selected disabled>--Select One--</option>
+                                    <option value="">Web Design & Development</option>
+                                    <option value="">Graphic Design</option>
+                                    <option value="">Digital Marketing</option>
+                                </select>
+                            </div><br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="form_three">Student Name*</label>
+                                <input type="text" class="form_three"><br><br>
+                                <label for="form_three">Father Name*</label>
+                                <input type="text" class="form_three"><br><br>
+                                <label for="form_three">Mother Name*</label><br>
+                                <input type="text" class="form_three"><br> <br>
+                                <label for="date">Date of Birth</label> <br>
+                                <input type="date" name="date" id="form_one">
+                            </div><br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                Gender* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                <input type="radio" name="one" id="gender">
+                                <label for="one"><Strong style="color: #666666;">Male</Strong></label> &nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="one" id="gender">
+                                <label for="one"><Strong style="color: #666666;">Female</Strong></label>
+                            </div><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="">Email</label>
+                                <input type="email" id="form_one"
+                                placeholder="rabbi@gmail.com">
+                            </div><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="">Phone</label>
+                                <input type="" name="" id="form_one">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- right table -->
+
+            <table class="right_table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <label for="">Identification Type*</label><br>
+                                <select name="" id="form_one">
+                                    <option value="" selected disabled >--Select One--</option>
+                                    <option value="">Birth Certificate No.</option>
+                                    <option value="">National ID</option>
+                                </select>
+                                <p>Identification No.</p>
+                                <input type="" id="form_one">
+                            </div>
+                            <div>
+                                <label for="">Home District*
+                                </label><br>
+                                <select name="" id="form_one">
+                                    <option value="" selected disabled>Select one</option>
+                                    <option value="">Dinajpur</option>
+                                </select>
+                            </div><br>
+                            <div>
+                                <label for="">Upazila*
+
+                                </label><br>
+                                <select name="" id="form_one">
+                                    <option value="" selected disabled>Select one</option>
+                                    <option value="">Sadar Dinajpur</option>
+                                </select>
+                            </div><br>
+                            <div>
+                                <label for="">Village/House No./Road No./Other Alternative*
+                                </label><br>
+                                <input type="text" id="form_one">
+                            </div><br>
+                            <div>
+                                <label for="">Post Office*
+                                </label><br>
+                                <input type="text" id="form_one">
+                            </div><br>
+                            <div>
+                                <label for="">Educational Qualification* (Higher Level)
+                                </label> <br>
+                                <select name="" id="form_one">
+                                    <option value=""selected disabled>Select One</option>
+                                    <option value="">Higher Secondary/Equivalent</option>
+                                    <option value="">Bachelor</option>
+                                    <option value="">Master</option>
+                                    <option value="">Phd</option>
+                                </select>
+                            </div><br>
+                            <div>
+                                <label for="">Photograph*</label><br>
+                                <input type="file" id="form_one">
+                                <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+                            </div><br>
+                            <div>
+                                <label for="">Signature*</label><br>
+                                <input type="file" id="form_one">
+                                <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+                            </div><br>
+                            <!-- <div>
+                                <input type="submit" value="Submitted Data" id="form_one">
+                            </div> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <input type="submit" value="Submitted Data" id="submit_data">
+            </div> 
+        </form><br>
+        </div>
+        <footer>
+            <p>Author: RABBI HOSSAIN<br>
+            <a href="mailto:rabbi21hstu@gmail.com">rabbi21hstu@gmail.com</a></p>
+          </footer>
+</body>
+</html>
